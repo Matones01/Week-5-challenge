@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.calc{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 480px;
+}
+.numberDisplay{
+    background-color: darkgray;
+}
+.buttonDisplay{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-top: 20px;
+    width: 260px;
+    height: 460px;
+    
+}
+
+.button{
+    width: 45px;
+    height: 40px;
+    background-color: orange;
+    border: solid, black
+}
